@@ -13,7 +13,7 @@ export default function Hero() {
           <button className="bg-purple-600 hover:bg-purple-500 text-white px-6 py-3 rounded-lg font-medium transition">
             Create Watch Party
           </button>
-          <button className="bg-white text-black px-6 py-3 rounded-lg font-medium hover:bg-gray-200 transition">
+          <button className="bg-amber-50 text-black px-6 py-3 rounded-lg font-medium hover:bg-gray-200 transition">
             Join Existing Session
           </button>
         </div>

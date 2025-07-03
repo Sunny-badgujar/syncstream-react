@@ -6,7 +6,12 @@ import App from './App';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const rootElement = document.getElementById('root');
+if (!rootElement) {
+  throw new Error("Root element with id 'root' not found in index.html");
+}
+
+ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
